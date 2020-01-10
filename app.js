@@ -14,7 +14,7 @@ let i = 0;
 db.collection('alumini').get().then(snapshot => {
     snapshot.docs.forEach(doc => {
         i++;
-    });
+    }); document.getElementById("count").innerHTML="total count : "+i;
 });
 
                 
