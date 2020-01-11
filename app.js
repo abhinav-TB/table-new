@@ -62,7 +62,7 @@ function renderCafe(doc){
      var cell7 =row.insertCell(6);
      var cell8 =row.insertCell(7);
      var cell9 =row.insertCell(8);
-        // var cell10 =row.insertcell(9);
+       var cell10 =row.insertcell(9);
      cell1.innerHTML= i;
     cell2.innerHTML = name.textContent;
     cell3.innerHTML = batch.textContent;
@@ -72,7 +72,7 @@ function renderCafe(doc){
      cell7.innerHTML = email.textContent;
      cell8.innerHTML = higher.textContent;
      cell9.innerHTML = location.textContent;
-    // cell10.innerHTML = phone.textContent;
+     cell10.innerHTML = phone.textContent;
     
  i=i-1;
 }
